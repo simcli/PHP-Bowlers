@@ -87,13 +87,16 @@
         <a href="prize_payouts.php">Prize Payouts</a>
     </div>
     <div class="content">
-        <div class="slideshow-container">
-            <img src="pins1.jpg" alt="Slideshow Image 1" style="display: block" />
-            <img src="pins2.jpg" alt="Slideshow Image 2" />
-            <img src="pins3.jpg" alt="Slideshow Image 3" />
-            <!-- Add more images as needed -->
-        </div>
 
+        <!-- This Container creates two columns for teams and players visualization -->
+        <div class="grid-container">
+            <div id="teamsTable">
+            <!-- to be filled in by JS -->
+            </div>
+            <div id="playersTable">
+            <!-- to be filled in by JS -->
+            </div>
+        </div>
     </div>
 
         <div id="ButtonPanel">
